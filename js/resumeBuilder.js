@@ -44,7 +44,7 @@ var work = {
         'title': 'Web Developer and Digital Marketer',
         'location': 'Global',
         'dates': '01/2005 - presemt',
-        'description': 'Please see <a href="https://is.gd/DigitalExperience"><strong>this page</strong></a> to learn more about my expertise in Web Dev, Digital Marketing and SEO.'
+        'description': 'Please see <a href="http://coolweb.tech/my-portfolio/"><strong>this page</strong></a> to learn more about my expertise in Web Development and Coding.<br>Please see <a href="https://is.gd/DigitalExperience"><strong>this page</strong></a> to learn more about my expertise in Digital Marketing and SEO.'
     }, {
         'employer': 'Various companies in various countries',
         'title': 'Consultant and Advisor',
