@@ -1,0 +1,64 @@
+<!-- Online Resume - Web Dev - Made by Vlad Golovin - 2016 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Online Resume - Vlad Golovin</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel=
+    "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel=
+    "stylesheet">
+    <script src=
+    "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCf0VucfnFxs6xptpJKUVSrwC5Yk9vEjo8">
+    </script>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <!--  This a popup script -->
+
+    <script type="text/javascript">
+    var appoInit=document.createElement('script');
+    var appoS=document.getElementsByTagName('script')[0];
+    appoInit.type='text/javascript';
+    appoInit.src='https://www.appocalypsis.com/loader/init/BIFFFP.js';
+    appoInit.async=true;
+    appoS.parentNode.insertBefore(appoInit, appoS);
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <ul id="topContacts"></ul>
+        </div>
+        <div class="header-middle">
+            <div class="middle-image"></div>
+            <div class="middle-text"></div>
+        </div>
+    </header>
+    <main class="main">
+        <section id="skills"></section>
+        <section id="workExperience">
+            <h2 class="work-title">My Work Experience</h2>
+        </section>
+        <section id="projects">
+            <h2 class="projects-title">My Cool Projects</h2>
+        </section>
+        <section id="education">
+            <h2 class="education-title">My Education</h2>
+        </section>
+        <section id="mapDiv">
+            <h2 class="map-title">Where I've Lived, Studied and Worked</h2>
+        </section>
+    </main>
+    <footer id="lets-connect">
+        <h2 class="connect-title">Let's Connect!</h2>
+        <ul id="footerContacts"></ul>
+    </footer>
+    <script src="js/jQuery.js">
+    </script> 
+    <script src="js/helper.js">
+    </script> 
+    <script src="js/resumeBuilder.js">
+    </script>
+</body>
+</html>
