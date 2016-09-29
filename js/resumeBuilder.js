@@ -1,7 +1,7 @@
 // Bio 
 var bio = {
     'name': 'Vlad Golovin',
-    'role': 'Web Developer',
+    'role': 'Web Developer || Digital Marketer',
     'contacts': {
         'mobile': 'Tel: 646-480-7072',
         'email': 'Email: golovin2011@gmail.com',
